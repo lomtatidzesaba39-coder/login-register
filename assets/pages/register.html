@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>register-login_test</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <h2>Register</h2>
+    </head>
+    <header style="background-color: darkgray;">
+        <nav>
+          <li>
+              <a href="../pages/log in.html">Log in</a> 
+          </li>
+        </nav>
+    </header>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="fname">Email</label><br>
+        <input type="Email" required placeholder="Enter Your Email"> <br></br>
+        <label for="password">Password</label>
+        <input type="text" id="Psword" name="Psword" required minlength="4" maxlength="10"> <br></br>
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth" required> 
+        <input type="Submit" value="Register">
+    </form> 
+  </body>
+</html>
